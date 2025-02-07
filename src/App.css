@@ -1,0 +1,43 @@
+*{
+  font-family: "Poppins";
+  margin: 0;
+}
+.navbar{
+  width: 100%;
+  height: 13vh;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.link{
+  color: white;
+  text-decoration: none;
+}
+.home-main{
+  background-image: url('https://media.istockphoto.com/id/155170343/photo/black-and-white-photo-of-bowman-lake.jpg?s=612x612&w=0&k=20&c=q51Jh9GuFs2x24aaPtYN9OOzFiTpq2TIkFyUcrGz4XU=');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.site-head{
+  font-weight: 200;
+  margin-top: -12px;
+}
+.about-main{
+  width: 100%;
+  height: 45vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.about-main p{
+  width: 70%;
+  text-align: justify;
+}

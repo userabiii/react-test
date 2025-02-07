@@ -1,0 +1,38 @@
+.contact-main{
+    width: 100%;
+    height: 87vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-box{
+    border: 1px solid black;
+    border-radius: 24px;
+    width: 30%;
+    padding: 16px;
+}
+.contact-form{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.contact-form label{
+    font-size: 14px;
+    font-weight:bold
+}
+.contact-form input, textarea{
+    width: 70%;
+    height: 40px;
+    border: 1px solid black;
+    text-align: center;
+}
+.contact-form .submit-btn{
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 8px;
+    width: 70%;
+    border-radius: 8px;
+}
